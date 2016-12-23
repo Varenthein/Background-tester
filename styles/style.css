@@ -1,0 +1,93 @@
+:root {
+  --bColor: #fff;
+  --bImage: url(https://images.unsplash.com/reserve/3waHuaQXRsCuMiUYzARw_IMG_3379.jpg?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  --bPosition: center center;
+  --bRepeat: no-repeat;
+  --bSize: 100%;
+}
+body {
+  background-color: var(--bColor);
+  background-image: var(--bImage);
+  background-position: var(--bPosition);
+  background-repeat: var(--bRepeat);
+  background-size: var(--bSize);
+  transition: all 0.5s;
+}
+
+form {
+  background-color: #fff;
+  height: 100vh;
+  text-align: left;
+  opacity: 0.7;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.2s;
+}
+form:hover {
+  opacity:1;
+}
+form input.form-control, form select.form-control {
+  display: inline;
+  margin: 5px;
+  width: 100px;
+}
+form input[type=radio].form-control  {
+  margin: 5px;
+  height: 10px;
+  width:10px;
+}
+//form input[type=range].form-control  {
+  margin: 5px;
+  height: 10px;
+  width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+}
